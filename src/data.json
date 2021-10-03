@@ -1,0 +1,62 @@
+[
+    {
+        "title": "Keyboard Introduction and Basic Typing",
+        "id": 101,
+        "duration": "3 Days",
+        "details": "Keyboard is a set of keys that enables you to enter data into computer. It is the main input device of the computer. It has many keys which can be pressed to make characters like numbers, letters or symbols appear on the screen. Feel the bumps on the F and J keys. The bumps are there to guide you to position your fingers on the keyboard wihout looking. Place your index fingers on the F and J keys. ... Your fingers should lightly touch the keys. This is the \"Basic Position\".",
+        "Benefits": [
+            "Save time",
+            "Reduce fatigue",
+            "Increase productivity"
+        ],
+        "img": "https://static.typingclub.com/m/pub/images/tpc-dvorak.png",
+        "cost": 100,
+        "discount": 10,
+        "instructor": "Janie Lingle"
+    },
+    {
+        "title": "Numeric and Symbol Typing",
+        "id": 102,
+        "duration": "5 Days",
+        "details": "You will find most of the symbols on the top (numbers) row of keys on your keyboard. You type the symbol by holding down the shift-key while pressing the number. The numbers are challenging because you have to go up an extra row from the home-row, but the symbols are even more so because you have to use the other hand to hold the shift-key. The biggest part of the challenge can be finding the home row again after the symbol is typed. This tests combines numbers, letters and symbols to give you a workout that covers all of the unique challenges of typing symbols.",
+        "Benefits": [
+            "Data entry",
+            "Programming typing",
+            "Save time"
+        ],
+        "img": "https://static.typingclub.com/m/pub/images/tpc-right-left.png",
+        "cost": 150,
+        "discount": 5,
+        "instructor": "Stan Kirk"
+    },
+    {
+        "title": "Data Entry Typing",
+        "id": 103,
+        "duration": "15 Days",
+        "details": "Data entry is the inputting of data or information into a computer using input devices, such as a keyboard, scanner, disk, and voice. ... Today, many online data entry jobs available require the employee to enter the data into an online database.",
+        "Benefits": [
+            "Job for Data Entry",
+            "Fastest Work",
+            "Build Skills"
+        ],
+        "img": "https://static.typingclub.com/m/corp2/lessonplan-icons/typing-de.png",
+        "cost": 200,
+        "discount": 9,
+        "instructor": "Marc Jacobs "
+    },
+    {
+        "title": "Advance Programming Typing",
+        "id": 104,
+        "duration": "30 Days",
+        "details": "Advanced Programming Concepts. Advanced software development with an object-oriented focus. Design, implementation, and testing of several large programs in a Java and Linux environment using current technologies.",
+        "Benefits": [
+            "Faster Project Delivery",
+            "Protect your health",
+            "Essential for the development of other skills"
+        ],
+        "img": "https://static.typingclub.com/m/pub/images/tpc-spanish.png",
+        "cost": 250,
+        "discount": 15,
+        "instructor": "Gwen James"
+    }
+]
