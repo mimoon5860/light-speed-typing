@@ -5,17 +5,17 @@ import img from '../../images/main-image.png'
 import Fetch from '../Utilitis/Utilitis';
 
 const Home = () => {
-    const courses = Fetch();
-    console.log(courses)
+    const allCourses = Fetch();
+    const courses = allCourses.slice(0, 4);
     return (
         <div className='m-4 w-11/12  mx-auto'>
             <div className='flex items-center'>
                 <div className='w-1/2'>
                     <div className='w-3/5 mx-auto leading-10'>
-                        <h2 className='text-5xl tracking-wider uppercase '>LightSpeed</h2>
-                        <h2 className='text-5xl tracking-wider uppercase '>Typing</h2>
-                        <h3>Join Our Course if you wanna become a pro type master!</h3>
-                        <NavLink className='font-bold text-white rounded-md px-6 py-3 bg-green-500 hover:bg-green-700' to='/Details'>All Details</NavLink>
+                        <h2 className='text-5xl tracking-wider uppercase font-bold '>LightSpeed</h2>
+                        <h2 className='text-5xl tracking-wider uppercase font-bold'>Typing</h2>
+                        <h3 className='text-xl my-3'>Join Our Course if you wanna become a pro type master!</h3>
+                        <NavLink className='font-bold text-white rounded-md px-6 py-3 bg-green-500 hover:bg-green-700' to='/Courses'><i className="fas fa-info-circle"></i> All Courses</NavLink>
                     </div>
                 </div>
                 <div className='w-1/2'>

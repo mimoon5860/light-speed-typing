@@ -12,7 +12,6 @@ const CourseDetail = () => {
     console.log(allDetails);
     const { courseId } = useParams()
     const detailCourse = allDetails.find(coursee => coursee.id == courseId);
-    console.log(detailCourse)
     if (detailCourse) {
         const { Benefits, cost, details, discount, duration, img, instructor, title } = detailCourse;
 
@@ -42,7 +41,7 @@ const CourseDetail = () => {
                     </div>
                     <div className='flex gap-2 p-2 w-1/4'>
                         <Link to='/home' className='font-bold text-white rounded-md p-2 bg-green-500 hover:bg-green-700'>Back To Home</Link>
-                        <Link to='/Details' className='font-bold text-white rounded-md p-2 bg-green-500 hover:bg-green-700'>All Details</Link>
+                        <Link to='/Courses' className='font-bold text-white rounded-md p-2 bg-green-500 hover:bg-green-700'><i className="fas fa-info-circle"></i> All Courses</Link>
                     </div>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const ShowAllDetails = props => {
+const ShowAllCourses = props => {
     const { cost, details, discount, duration, img, instructor, title, id } = props.course;
     return (
         <div className='flex gap-5 m-4 items-center border p-2'>
@@ -17,10 +17,10 @@ const ShowAllDetails = props => {
                 <h1>{discount}% Discount Now!</h1>
                 <h1>Course Cost: {cost}</h1>
                 <h1>Course Duration: {duration}</h1>
-                <Link className='font-bold text-center w-1/4 text-white rounded-md p-2 bg-green-500 hover:bg-green-700' to={`/detail/${id}`} >Details</Link>
+                <Link className='font-bold text-center w-1/4 text-white rounded-md p-2 bg-green-500 hover:bg-green-700' to={`/detail/${id}`} ><i class="fas fa-info"></i> Details</Link>
             </div>
         </div>
     );
 };
 
-export default ShowAllDetails;
+export default ShowAllCourses;

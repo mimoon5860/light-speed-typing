@@ -9,19 +9,19 @@
             "Reduce fatigue",
             "Increase productivity"
         ],
-        "img": "https://static.typingclub.com/m/pub/images/tpc-dvorak.png",
+        "img": "https://static.typingclub.com/m/corp2/lessonplan-icons/junior1.png",
         "cost": 100,
         "discount": 10,
         "instructor": "Janie Lingle"
     },
     {
-        "title": "Numeric and Symbol Typing",
+        "title": "Numeric Type Learning",
         "id": 102,
         "duration": "5 Days",
         "details": "You will find most of the symbols on the top (numbers) row of keys on your keyboard. You type the symbol by holding down the shift-key while pressing the number. The numbers are challenging because you have to go up an extra row from the home-row, but the symbols are even more so because you have to use the other hand to hold the shift-key. The biggest part of the challenge can be finding the home row again after the symbol is typed. This tests combines numbers, letters and symbols to give you a workout that covers all of the unique challenges of typing symbols.",
         "Benefits": [
             "Data entry",
-            "Programming typing",
+            "Fast type number",
             "Save time"
         ],
         "img": "https://static.typingclub.com/m/pub/images/tpc-right-left.png",
@@ -58,5 +58,35 @@
         "cost": 250,
         "discount": 15,
         "instructor": "Gwen James"
+    },
+    {
+        "title": "Symbol Typing Learning",
+        "id": 105,
+        "duration": "10 Days",
+        "details": "You will find most of the symbols on the top (numbers) row of keys on your keyboard. You type the symbol by holding down the shift-key while pressing the number. The numbers are challenging because you have to go up an extra row from the home-row, but the symbols are even more so because you have to use the other hand to hold the shift-key.  This tests combines numbers, letters and symbols to give you a workout that covers all of the unique challenges of typing symbols.",
+        "Benefits": [
+            "Faster Complete project",
+            "Type Hard Paragraph",
+            "Programming typing"
+        ],
+        "img": "https://static.typingclub.com/m/pub/images/tpc-dvorak.png",
+        "cost": 170,
+        "discount": 5,
+        "instructor": "Earl Curry"
+    },
+    {
+        "title": "Foreign Language Typing",
+        "id": 106,
+        "duration": "25 Days",
+        "details": "If you plan to do extensive typing in a foreign language you can install a keyboard for that language from the Settings screen. Click General, Keyboards, International Keyboards, Add New Keyboard…, and then choose your language. That keyboard will now be available from a globe key on the on-screen keyboard",
+        "Benefits": [
+            "Become a Polyglot",
+            "Boost Your Confidence",
+            "Work at whole World"
+        ],
+        "img": "https://static.typingclub.com/m/corp2/lessonplan-icons/typing-fr.png",
+        "cost": 220,
+        "discount": 9,
+        "instructor": "Adrian Bourn"
     }
 ]
