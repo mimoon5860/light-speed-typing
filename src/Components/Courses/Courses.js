@@ -6,7 +6,7 @@ const Courses = () => {
     const courses = Fetch();
     return (
         <div>
-            {courses.map(course => <ShowAllCourses course={course}></ShowAllCourses>)}
+            {courses.map(course => <ShowAllCourses key={course.id} course={course}></ShowAllCourses>)}
         </div>
     );
 };
