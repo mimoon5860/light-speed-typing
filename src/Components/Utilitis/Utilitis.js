@@ -1,5 +1,8 @@
 import { useEffect, useState } from "react";
 
+
+// Fetching function for use many components 
+
 const Fetch = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {

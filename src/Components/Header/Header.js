@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 
+// Header Component 
 const Header = () => {
     return (
         <div className='bg-purple-500 text-white'>
@@ -8,7 +9,7 @@ const Header = () => {
                 <Link to='/'>
                     <div className='text-4xl flex flex-col items-end italic font-black uppercase'>
                         <h2>LightSpeed</h2>
-                        <h2>Typing</h2>
+                        <h2><i className="fas fa-bolt"></i> Typing</h2>
                     </div>
                 </Link>
                 <div className='text-l gap-3 flex font-bold'>

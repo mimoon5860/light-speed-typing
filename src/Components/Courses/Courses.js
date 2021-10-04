@@ -2,6 +2,8 @@ import React from 'react';
 import Fetch from '../Utilitis/Utilitis';
 import ShowAllCourses from './ShowAllCourses/ShowAllCourses';
 
+// All Courses Component 
+
 const Courses = () => {
     const courses = Fetch();
     return (

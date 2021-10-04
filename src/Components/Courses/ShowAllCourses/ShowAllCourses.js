@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+
+// Component for Show All Course after map 
+
 const ShowAllCourses = props => {
     const { cost, details, discount, duration, img, instructor, title, id } = props.course;
     return (

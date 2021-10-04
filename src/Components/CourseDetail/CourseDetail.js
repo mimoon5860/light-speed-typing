@@ -2,7 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import { Link } from 'react-router-dom';
 
+// single course details component 
+
 const CourseDetail = () => {
+
+    // facting data 
     const [allDetails, setAllDetails] = useState([])
     useEffect(() => {
         fetch('../../data.json')
@@ -12,6 +16,7 @@ const CourseDetail = () => {
     const { courseId } = useParams()
     const detailCourse = allDetails.find(coursee => coursee.id === parseInt(courseId));
 
+    // condition for dont run before load detail course 
     if (detailCourse) {
         const { Benefits, cost, details, discount, duration, img, instructor, title } = detailCourse;
 
@@ -23,7 +28,7 @@ const CourseDetail = () => {
                 <div>
                     <img className='w-4/12 mx-auto m-4 rounded shadow-lg' src={img} alt="" />
                 </div>
-                <div className='my-4 rounded-xl border-2 shadow-lg border-gray-200'>
+                <div className='my-4 p-2 rounded-xl border-2 shadow-lg border-gray-200'>
                     <div className='flex m-3'>
                         <div className='w-2/5'><h2 className='font-bold text-2xl'>Three Benefits of This Course:</h2>
                             <div>{Benefits.map(benefit => <Benefit key={benefit} benefits={benefit}></Benefit>)}</div>
@@ -47,11 +52,16 @@ const CourseDetail = () => {
                 </div>
             </div>
         );
+
     } else {
+
+        // Loading before Load details 
         return <><h3 className='text-center'>Loading...</h3></>;
     }
 };
 
+
+// simple component for show benefits 
 const Benefit = props => {
     const benefit = props.benefits;
     return (

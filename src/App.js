@@ -4,7 +4,6 @@ import About from './Components/About/About';
 import ContactUs from './Components/ContactUs/ContactUs';
 import CourseDetail from './Components/CourseDetail/CourseDetail';
 import Courses from './Components/Courses/Courses';
-
 import Error from './Components/Error/Error';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';

@@ -1,6 +1,8 @@
 import React from 'react';
 import img from '../../images/about.png'
 
+// About Componenet 
+
 const About = () => {
     return (
         <div className='flex items-center'>

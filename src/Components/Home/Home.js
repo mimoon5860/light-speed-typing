@@ -3,9 +3,16 @@ import ShowCourse from './ShowCourse/ShowCourse';
 import img from '../../images/main-image.png'
 import Fetch from '../Utilitis/Utilitis';
 
+// Home Component 
+
 const Home = () => {
+
+    // Fetching data from fetch utilties
     const allCourses = Fetch();
+
+    // Slice data for showing 4 item in home page 
     const courses = allCourses.slice(0, 4);
+
     return (
         <div className='m-4 w-11/12  mx-auto'>
             <div className='flex items-center'>
@@ -13,7 +20,7 @@ const Home = () => {
                     <div className='w-3/5 mx-auto leading-10'>
                         <h2 className='text-6xl italic tracking-wider uppercase font-bold '>LightSpeed</h2>
                         <h2 className='text-6xl italic tracking-wider uppercase font-bold'>Typing</h2>
-                        <h3 className='text-xl font-medium my-3'>Join Our Course if you wanna become a pro type master!</h3>
+                        <h3 className='text-xl font-bold text-gray-500 my-3'>Join Our Course if you wanna become a pro type master!</h3>
                         <NavLink className='font-bold text-white rounded-md px-6 py-3 bg-green-500 hover:bg-green-700' to='/Courses'><i className="fas fa-info-circle"></i> All Courses</NavLink>
                     </div>
                 </div>

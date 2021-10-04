@@ -1,6 +1,8 @@
 import React from 'react';
 import img from '../../images/contact.png'
 
+// Contact Us Component 
+
 const ContactUs = () => {
 
     return (

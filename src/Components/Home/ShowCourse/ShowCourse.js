@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+// Component for Show fetching data on home page
+
 const ShowCourse = props => {
     const { img, title, cost, discount, id } = props.course;
     return (
