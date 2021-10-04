@@ -15,7 +15,7 @@ const Home = () => {
                         <h2 className='text-5xl tracking-wider uppercase '>LightSpeed</h2>
                         <h2 className='text-5xl tracking-wider uppercase '>Typing</h2>
                         <h3>Join Our Course if you wanna become a pro type master!</h3>
-                        <NavLink className='p-2 bg-gray-100' to='/Details'>Details</NavLink>
+                        <NavLink className='font-bold text-white rounded-md px-6 py-3 bg-green-500 hover:bg-green-700' to='/Details'>All Details</NavLink>
                     </div>
                 </div>
                 <div className='w-1/2'>

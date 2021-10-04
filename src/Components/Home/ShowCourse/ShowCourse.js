@@ -12,9 +12,8 @@ const ShowCourse = props => {
                 <h2 className='text-2xl'>{title}</h2>
                 <h2 className='text-3xl font-bold'>{discount}% DISCOUNT!</h2>
                 <h2>Cost: ${cost}</h2>
-                <div className='flex gap-2 p-2'>
-                    <NavLink to={`/detail/${id}`} className='p-2 bg-gray-100'>Course Details</NavLink>
-                    <NavLink to={`/detail/${id}`} className='p-2 bg-gray-100'>Buy Course</NavLink>
+                <div className='flex p-2'>
+                    <NavLink to={`/detail/${id}`} className='font-bold text-white rounded-md p-2 bg-green-500 hover:bg-green-700'>Course Details</NavLink>
                 </div>
             </div>
         </div>

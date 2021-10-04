@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    letterSpacing: {
+      widest: '2em',
+    }
   },
   variants: {
     extend: {},

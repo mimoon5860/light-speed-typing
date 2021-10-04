@@ -12,30 +12,32 @@ import Home from './Components/Home/Home';
 function App() {
   return (
     <Router>
-      <Header></Header>
-      <Switch>
-        <Route exact path='/'>
-          <Home></Home>
-        </Route>
-        <Route path='/Home'>
-          <Home></Home>
-        </Route>
-        <Route path='/Details'>
-          <Details></Details>
-        </Route>
-        <Route path='/About'>
-          <About></About>
-        </Route>
-        <Route path='/ContactUs'>
-          <ContactUs></ContactUs>
-        </Route>
-        <Route path='/Detail/:courseId'>
-          <CourseDetail></CourseDetail>
-        </Route>
-        <Route path='*'>
-          <Error></Error>
-        </Route>
-      </Switch>
+      <div style={{ minHeight: '95vh' }}>
+        <Header></Header>
+        <Switch>
+          <Route exact path='/'>
+            <Home></Home>
+          </Route>
+          <Route path='/Home'>
+            <Home></Home>
+          </Route>
+          <Route path='/Details'>
+            <Details></Details>
+          </Route>
+          <Route path='/About'>
+            <About></About>
+          </Route>
+          <Route path='/ContactUs'>
+            <ContactUs></ContactUs>
+          </Route>
+          <Route path='/Detail/:courseId'>
+            <CourseDetail></CourseDetail>
+          </Route>
+          <Route path='*'>
+            <Error></Error>
+          </Route>
+        </Switch>
+      </div>
       <Footer></Footer>
     </Router>
   );

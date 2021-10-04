@@ -1,9 +1,12 @@
 import React from 'react';
+import Fetch from '../Utilitis/Utilitis';
+import ShowAllDetails from './ShowAllDetails/ShowAllDetails';
 
 const Details = () => {
+    const courses = Fetch();
     return (
         <div>
-            <h1>Details</h1>
+            {courses.map(course => <ShowAllDetails course={course}></ShowAllDetails>)}
         </div>
     );
 };
